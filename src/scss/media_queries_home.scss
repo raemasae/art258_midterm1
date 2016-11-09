@@ -1,7 +1,9 @@
 @media screen and (min-width: 768px) {
-  .intro,
-  .news {
+  .intro_content,
+  .news_content,
+  .sponsors {
     max-width: 700px;
+    margin: 0 auto;
   }
 
   .dates {
@@ -20,7 +22,26 @@
     }
   }
 
+  .sidebar {
+    display: block;
+  }
+
   .media_player_mobile {
     display: none;
+  }
+
+  .hero {
+    .hero_button {
+      right: 5rem;
+      left: 70%;
+    }
+  }
+
+  .intro,
+  .dates,
+  .news,
+  footer {
+    width: calc(100% - 225px);
+    float: right;
   }
 }

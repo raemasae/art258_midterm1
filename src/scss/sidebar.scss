@@ -6,11 +6,71 @@
   height: 100vh;
   margin: 0 auto;
   text-align: center;
+  width: 225px;
 
   .logo {
     margin: 2rem auto;
     text-align: center;
-    width: 100px;
+    padding: 2rem;
+    width: 50%;
     border: 1px solid #000;
+  }
+
+  .main_nav {
+    padding-top: 2rem;
+    padding-bottom: 3rem;
+  }
+
+  .nav_divider {
+    border-bottom: 1px solid #000;
+    width: 40%;
+    margin: 0 auto;
+  }
+
+  .media_player {
+    padding-top: 2rem;
+    padding-bottom: 3rem;
+
+    p {
+      font-size: 1rem;
+      font-weight: 800;
+      text-transform: capitalize;
+    }
+
+    .song_title {
+      font-size: 0.8rem;
+      font-weight: 300;
+    }
+
+    .media_player_buttons {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+
+      img {
+        width: 20px;
+        margin: 0.5rem;
+      }
+
+      .media_player_play {
+        margin-left: 1rem;
+      }
+    }
+  }
+
+  .mgm_promo {
+    padding: 0 2rem;
+
+    p {
+      line-height: 1.2;
+    }
+
+    button {
+      a {
+        font-size: 0.8rem;
+        letter-spacing: 1px;
+        color: white;
+      }
+    }
   }
 }

@@ -24,6 +24,8 @@ $paragraph-font-weight: 300;
 $paragraph-line-height: 1.5;
 
 $toggle-link-font-size: 1.3rem;
+$sidebar-link-font-size: 1.1em;
+$sidebar-line-height: 2;
 
 * {
   font-family: 'Open Sans', sans-serif;
@@ -77,4 +79,14 @@ p {
   font-size: $paragraph-font-size;
   font-weight: $paragraph-font-weight;
   line-height: $paragraph-line-height;
+}
+
+.sidebar {
+  .main_nav {
+    a {
+      font-size: $sidebar-link-font-size;
+      letter-spacing: $h4-letter-spacing;
+      line-height: $sidebar-line-height;
+    }
+  }
 }
