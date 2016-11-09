@@ -1,6 +1,6 @@
 .dates {
   .dates_content {
-    padding: 0 1rem;
+    padding: 0 1rem 3rem;
 
     .dates_content_details {
       display: flex;
@@ -18,7 +18,15 @@
       .dates_artists {
         width: 70vw;
         padding-left: 1rem;
+
+        h5 {
+          text-align: left;
+        }
       }
+    }
+
+    button {
+      border: 3px solid white;
     }
   }
 }
