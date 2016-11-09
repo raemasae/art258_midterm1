@@ -1,0 +1,26 @@
+@media screen and (min-width: 768px) {
+  .intro,
+  .news {
+    max-width: 700px;
+  }
+
+  .dates {
+    .dates_content {
+      max-width: 700px;
+    }
+  }
+}
+
+@media screen and (min-width: 1024px) {
+  .header_mobile {
+    .logo,
+    .header_mobile_toggle-img,
+    .utility_nav {
+      display: none;
+    }
+  }
+
+  .media_player_mobile {
+    display: none;
+  }
+}
