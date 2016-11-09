@@ -1,0 +1,24 @@
+.dates {
+  .dates_content {
+    padding: 0 1rem;
+
+    .dates_content_details {
+      display: flex;
+      justify-content: space-between;
+      padding-bottom: 2rem;
+
+      .dates_night {
+        width: 30vw;
+
+        .village {
+          letter-spacing: 0.5px;
+        }
+      }
+
+      .dates_artists {
+        width: 70vw;
+        padding-left: 1rem;
+      }
+    }
+  }
+}

@@ -1,0 +1,27 @@
+.header_mobile {
+  display: flex;
+  justify-content: space-between;
+  padding: 1rem;
+  // background: rgba(255, 255, 255, 0.75);
+
+  .logo {
+    padding: 1rem;
+    width: 19%;
+    text-align: center;
+    border: 1px solid #000;
+  }
+
+  .header_mobile_toggle-img {
+    width: 50px;
+    padding-top: 0.5rem;
+  }
+
+  .utility_nav {
+    display: flex;
+    align-items: center;
+
+    .cart {
+      width: 35px;
+    }
+  }
+}

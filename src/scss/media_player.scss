@@ -1,0 +1,40 @@
+.media_player_mobile {
+  width: 100%;
+  background: rgba(255, 255, 255, 0.85);
+  padding: 0.5rem 1rem;
+  display: none;
+  justify-content: flex-end;
+  align-items: center;
+  position: fixed;
+  bottom: 0;
+
+  p {
+    font-size: 0.75rem;
+    display: inline-flex;
+    margin-right: 0.5rem;
+  }
+
+  .media_player_text {
+    padding-left: 0.5rem;
+
+    .playlist {
+      font-size: 0.9rem;
+      letter-spacing: 2px;
+    }
+  }
+
+  .media_player_forward {
+    width: 25px;
+    margin: 0.5rem;
+  }
+
+  .media_player_play {
+    width: 20px;
+    margin: 0.5rem;
+  }
+
+  .media_player_back {
+    width: 25px;
+    margin: 0.9rem;
+  }
+}

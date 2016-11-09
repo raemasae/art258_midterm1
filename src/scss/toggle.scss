@@ -1,0 +1,46 @@
+.toggle {
+  margin: 0 auto;
+  text-align: center;
+  background: rgba(255, 255, 255, 0.75);
+  padding-bottom: 3rem;
+
+  .toggle_logo {
+    margin: 1rem auto;
+    padding: 2rem;
+    width: 25%;
+    border: 1px solid #999;
+  }
+
+  .toggle_nav {
+    padding-top: 1rem;
+  }
+
+  .utility_nav {
+    display: flex;
+
+    a {
+      font-size: 0.9rem;
+    }
+  }
+
+  li {
+    padding: 0.5rem;
+  }
+
+  p {
+    text-transform: uppercase;
+    padding: 0 4rem;
+    font-size: 1rem;
+  }
+
+  .toggle_nav_divider {
+    border-bottom: 1px solid #999;
+    width: 150px;
+    margin: 0 auto;
+    padding-top: 3rem;
+  }
+
+  .toggle_mgm_promo {
+    padding-top: 3rem;
+  }
+}
