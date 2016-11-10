@@ -10,7 +10,6 @@
   .tmobile {
     margin: 0 auto;
     text-align: center;
-    padding: 1rem 0;
 
     .tmobile_content {
       padding: 2rem 1rem;
@@ -26,27 +25,42 @@
     }
 
     .tmobile_map {
+      text-align: center;
+      width: auto;
+      height: 400px;
       background: #999;
-      height: 30vh;
-      padding-top: 30%;
+      padding-top: 175px;
     }
 
     .tmobile_parking {
       display: flex;
+      justify-content: center;
       padding: 2rem 1rem;
 
       .tmobile_parking_img {
         background: #999;
         width: 50vw;
         height: 150px;
-        padding-top: 15%;
+        padding-top: 75px;
+        max-width: 250px;
       }
 
       .tmobile_parking_content {
-        width: 55vw;
+        width: 50vw;
+        max-width: 250px;
+        align-self: center;
+
+        h3 {
+          padding-top: 0.5rem;
+        }
 
         button {
           font-size: 0.8rem;
+          margin-top: 0;
+        }
+
+        .parking_content_desktop {
+          display: none;
         }
       }
     }
@@ -58,7 +72,7 @@
 
     .mgm-img {
       background: #999;
-      height: 30vh;
+      height: 35vh;
       padding-top: 30%;
     }
 
@@ -67,7 +81,7 @@
       position: absolute;
       margin: 0 auto;
       width: 70%;
-      bottom: -100px;
+      bottom: -125px;
       left: 0;
       right: 0;
       padding: 2rem 0;
