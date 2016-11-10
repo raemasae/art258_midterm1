@@ -1,0 +1,94 @@
+.gethere {
+  .hero {
+    height: 35vh;
+
+    .hero_img {
+      padding-top: 5rem;
+    }
+  }
+
+  .tmobile {
+    margin: 0 auto;
+    text-align: center;
+    padding: 1rem 0;
+
+    .tmobile_content {
+      padding: 2rem 1rem;
+    }
+
+    h3 {
+      text-transform: uppercase;
+      padding: 1rem 0 0.5rem;
+    }
+
+    p {
+      font-size: 1rem;
+    }
+
+    .tmobile_map {
+      background: #999;
+      height: 30vh;
+      padding-top: 30%;
+    }
+
+    .tmobile_parking {
+      display: flex;
+      padding: 2rem 1rem;
+
+      .tmobile_parking_img {
+        background: #999;
+        width: 50vw;
+        height: 150px;
+        padding-top: 15%;
+      }
+
+      .tmobile_parking_content {
+        width: 55vw;
+
+        button {
+          font-size: 0.8rem;
+        }
+      }
+    }
+  }
+
+  .mgm_accomodations {
+    text-align: center;
+    position: relative;
+
+    .mgm-img {
+      background: #999;
+      height: 30vh;
+      padding-top: 30%;
+    }
+
+    .mgm_content {
+      background: white;
+      position: absolute;
+      margin: 0 auto;
+      width: 70%;
+      bottom: -100px;
+      left: 0;
+      right: 0;
+      padding: 2rem 0;
+
+      h3 {
+        text-transform: uppercase;
+        font-weight: 800;
+        letter-spacing: 0.5px;
+      }
+
+      h4 {
+        font-size: 0.9rem;
+      }
+
+      button {
+        font-size: 0.8rem;
+      }
+    }
+  }
+
+  footer {
+    margin-top: 200px;
+  }
+}
