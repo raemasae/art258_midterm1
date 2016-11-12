@@ -1,4 +1,5 @@
   var $navToggle = $('.header_mobile_toggle-img');
+  var $navClose = $('.header_mobile_toggle-img_close')
   var $dropmenu = $('.toggle');
   var $window = $(window);
   var mobileBreakpoint = 1024;
@@ -10,7 +11,7 @@ $(document).ready(function() {
     $navToggle.toggleClass('active');
   });
 
-  $dropmenu.on('click', function() {
+  $navClose.on('click', function() {
     $dropmenu.slideToggle();
   });
 });

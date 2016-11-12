@@ -7,10 +7,16 @@
   z-index: 1;
   width: 100%;
 
+  .header_mobile_toggle-img_close {
+    width: 30px;
+    padding-top: 2rem;
+  }
+
   .toggle_logo {
     margin: 1rem auto;
-    padding: 2rem;
-    width: 25%;
+    padding-top: 35px;
+    width: 100px;
+    height: 100px;
     border: 1px solid #999;
   }
 
